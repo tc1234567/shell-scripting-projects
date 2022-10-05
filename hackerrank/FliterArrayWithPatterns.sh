@@ -10,4 +10,4 @@ do
   del=('${arr[@]/$i}')
 done
 
-echo {$del[@]/$delete}
+echo ${del[@]/$delete}
